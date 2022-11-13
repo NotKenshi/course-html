@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+body {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.avatar {
+    border-radius: 3%;
+    width: 210px;
+}
+
+.about {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.about p {
+    margin: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.bg-1 {
+    background-color: #E9ECEF;
+}
+
+.bg-2 {
+    background-color: #CED4DA;
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 10px
+}
+
+.card h2 {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card li {
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.time {
+    padding: 0 300px;
+}
+
+.time td {
+    text-align: right;
+}
+
+.time td:first-child {
+    text-align: left;
+}
+
+.course {
+    padding: 0 40px;
+}
+
+.course td {
+    text-align: center;
+}
+
+.info td {
+    text-align: center;
+}
+
+.info img {
+    max-width: 48px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: black
+}
